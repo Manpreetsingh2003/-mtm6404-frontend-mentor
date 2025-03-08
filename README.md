@@ -27,23 +27,23 @@ Here are some challenges i have faced while coding this contact form, which i ca
    - The document.addEventListener("DOMContentLoaded", function () { ... }); was incorrectly placed inside the <div> container.  
    - Solution: It was moved inside a properly linked external script.js file.
 
-3. *Form Validation and Error Handling:*  
+3.** *Form Validation and Error Handling:***  
    - Handling empty fields, unchecked radio buttons, and consent checkboxes needed proper validation.  
    - Solution: JavaScript if conditions were implemented to ensure all required fields were filled before submission.
 
-4. *Form Submission and Reset Behavior:*  
+4.** *Form Submission and Reset Behavior:***  
    - After successful submission, the form needed to be reset to allow new input.  
    - Solution: Used form.reset(); to clear the form fields after submission.
 
-5. *Styling and Layout Adjustments:*  
+5.** *Styling and Layout Adjustments:* ** 
    - The input-group needed responsive styling for smaller screens.  
    - Solution: Used CSS media queries to ensure proper layout on mobile devices.
 
-6. *Missing Required Attribute for Radio Buttons:*  
+6. ***Missing Required Attribute for Radio Buttons:* ** 
    - The required attribute was only on the first radio button, making validation inconsistent.  
    - Solution: Validation was added using JavaScript to check if a radio button was selected.
 
-7. *Ensuring Accessibility and Readability:*  
+7. ***Ensuring Accessibility and Readability:* ** 
    - Labels were linked to their respective input fields to improve accessibility.  
    - Solution: Used <label for="id"> to connect labels with input fields properly.
 
